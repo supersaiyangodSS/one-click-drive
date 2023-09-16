@@ -49,10 +49,10 @@ const copyText = () => {
                 return showAlert('Link copied to clipboard');
             })
             .catch(err => {
-                return alert('An error occurred:', err);
+                return console.error('An error occurred:', err);
             });
     } else {
-        alert('Nothing to copy');
+        showAlert('Nothing to copy');
     }
 };
 
