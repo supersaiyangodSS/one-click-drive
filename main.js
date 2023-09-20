@@ -57,7 +57,5 @@ const copyText = () => {
 };
 
 pasteBtn.addEventListener('click', pasteFn);
-
 linkInput.addEventListener('input', getLink);
-
 copyBtn.addEventListener('click', copyText);
