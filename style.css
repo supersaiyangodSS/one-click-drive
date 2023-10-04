@@ -77,13 +77,13 @@ body {
     align-items: center;
     font-size: 16px;
     font-weight: 600;
-    color: #FFFFFF; /* Changed button text color */
+    color: #FFFFFF; 
     margin-top: 10px;
     transition: .3s ease;
 }
 
 .btn:hover {
-    background: #FF6655; /* Changed button hover background color */
+    background: #FF6655;
 }
 
 footer {
@@ -97,7 +97,7 @@ footer {
 footer a {
     font-weight: 500;
     text-decoration: none;
-    color: #F25F5C; /* Changed footer link color */
+    color: #F25F5C;
 }
 
 @media only screen and (max-width: 600px) {
